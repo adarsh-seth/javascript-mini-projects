@@ -62,9 +62,9 @@ addMarks.addEventListener("click", () => {
         let searchMark = Number(Insearch.value);
 
         if (marks.includes(searchMark)) {
-            finalResult.innerText = "✅ Found!";
+            finalResult.innerText = " Found!";
         } else {
-            finalResult.innerText = "❌ Not Found!";
+            finalResult.innerText = " Not Found!";
         }
 
         Insearch.value = "";
