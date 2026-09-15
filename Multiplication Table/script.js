@@ -5,7 +5,7 @@ let table = document.getElementById('ok');
 let heading = document.getElementById('heading');
 
 btn.addEventListener("click", () => {
-    if(numInput.value.trim() == "") table.innerHTML="Please Enter a Number"
+    if(numInput.value.trim() == "") table.innerHTML="Please Enter big ver ybig number  a Number"
     else{
         let result = ""
         for(let i = 1;i<=10;i++){
